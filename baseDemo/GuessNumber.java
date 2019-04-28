@@ -36,6 +36,6 @@ public class GuessNumber{
 class A {
   int v = 100;
   public A (){
-    
+    v = Math.randon
   }
 }
