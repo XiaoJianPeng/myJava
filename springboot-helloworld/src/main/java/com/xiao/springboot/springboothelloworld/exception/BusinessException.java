@@ -1,14 +1,9 @@
 package com.xiao.springboot.springboothelloworld.exception;
 
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
-
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 自定义异常类
  */
+@SuppressWarnings("ALL")
 public class BusinessException extends RuntimeException {
   private String code;
   private String msg;
