@@ -4,7 +4,9 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @ControllerAdvice
@@ -27,6 +29,10 @@ public class MyControllerAdvice {
   @ExceptionHandler(value = BusinessException.class)
   public Map<String, Object> errorHandle(BusinessException ex) {
     Map<String,Object> map = new HashMap<>();
+    List<String> a = new ArrayList<>();
+    for (String s : a) {
+      
+    }
     map.put("code",ex.getCode());
     map.put("msg",ex.getMsg());
     return map;

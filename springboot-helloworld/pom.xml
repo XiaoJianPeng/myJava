@@ -36,9 +36,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis</artifactId>
-			<version></version>
+			<groupId>com.xuxueli</groupId>
+			<artifactId>xxl-job-core</artifactId>
+			<version>2.0.2</version>
 		</dependency>
 	</dependencies>
 

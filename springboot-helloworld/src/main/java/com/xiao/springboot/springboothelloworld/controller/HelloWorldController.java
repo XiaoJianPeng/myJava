@@ -22,8 +22,8 @@ public class HelloWorldController {
   public String index(@RequestParam(required = true) @NotBlank String name){
     System.out.println("name:"+name);
 //    int a = 22/0;
-//    return "hello world!" + name + this.msg;
-    throw new BusinessException("100","账号密码错误");
+    return "hello world!" + this.msg;
+//    throw new BusinessException("100","账号密码错误");
   }
 
   /**
